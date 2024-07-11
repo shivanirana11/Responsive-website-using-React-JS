@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar{
+    background-color: #fff!important;
+}
+.navbar-brand{
+    font-size:1.9rem !important;
+    color: purple!important;
+}
+.navbar a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: grey;
+    padding-right: 1.4rem;
+}
+.navbar a:hover{
+    color: purple!important;
+}
+.active{
+    font-weight: bold;
+    border-bottom: 2px solid purple;
+}
+#header{
+    width:100%;
+    height:80vh;
+}
+.brand-name{
+    color:purple;
+}
+.btn-primary{
+    border:2px solid purple;
+    padding: 10px 28px;
+    border-radius: 20px;
+    color:white;
+    background-color: purple;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: purple;
+}
+.animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down{
+    0%{
+        transform:translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
